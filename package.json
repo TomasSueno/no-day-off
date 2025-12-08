@@ -8,12 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "@supabase/ssr": "^0.8.0",
+    "@supabase/supabase-js": "^2.86.2",
     "next": "15.5.7",
     "react": "19.2.1",
     "react-dom": "19.2.1"
   },
   "devDependencies": {
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.7",
     "baseline-browser-mapping": "^2.8.32",
-    "sass": "^1.94.2"
+    "sass": "^1.94.2",
+    "typescript": "5.9.3"
   }
 }
