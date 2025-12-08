@@ -1,4 +1,4 @@
-import Statistics from '@/app/components/Statistics'
+import Statistics from '../../components/Statistics'
 
 export default function statistics() {
     return (
