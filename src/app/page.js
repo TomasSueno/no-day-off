@@ -1,4 +1,3 @@
-import { supabase } from "./lib/supabase";
 import Image from "next/image";
 import styles from "./page.module.scss"
 
