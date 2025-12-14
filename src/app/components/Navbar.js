@@ -5,21 +5,19 @@ import styles from "../page.module.scss"
 
 // Without navbar in pages - it's just and only component.
 // For now scss in page.module.scss
+// My comments
 
 export default function Navbar() {
     return (
         <>
         <nav>
-            <ul className={styles.upgradingNavUl}>
+            <ul className={styles.ul}>
                 <li>
                     <Link href="\"><h3>Stay hard, work hard</h3></Link>
                 </li>
-                <li>
-                    <Link href="/statistics">Statistics</Link>
-                </li>
 
                 <li>
-                    <Link href="#">Blogs</Link>
+                    <Link href="#">Done activities</Link>
                 </li>
 
                 <li>
@@ -27,7 +25,7 @@ export default function Navbar() {
                 </li>
 
                 <li>
-                    <Link href="#">Achievements</Link>
+                    <Link href="/statistics">Statistics</Link>
                 </li>
             </ul>
         </nav>

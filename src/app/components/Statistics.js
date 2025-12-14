@@ -36,7 +36,7 @@ import styles from "../page.module.scss"
 export default function Statistics() {
     return (
         <>
-            <h1>aaaaa</h1>
+            <h1>Statistics</h1>
         </>
     )
 }
